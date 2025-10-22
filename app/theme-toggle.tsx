@@ -39,8 +39,9 @@ export default function ThemeToggle() {
         id="theme-icon"
         src={isDark ? "/theme-icon-dark.svg" : "/theme-icon.svg"}
         alt="Toggle Theme"
-        width={24}
-        height={24}
+        width={48}
+        height={48}
+        className="scale-[2] w-6 h-6"
       />
     </button>
   );
