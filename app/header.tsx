@@ -10,7 +10,7 @@ export default function Header() {
           A website
         </h1>
         <nav className="flex text-gray-600 dark:text-gray-300 font-medium items-stretch">
-          <button className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300">Home</button>
+          <a href="#home" className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300">Home</a  >
           <button className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300">About</button>
           <button className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300">Contact</button>
           <ThemeToggle />
