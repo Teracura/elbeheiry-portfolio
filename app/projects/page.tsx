@@ -15,7 +15,7 @@ export default function ProjectsFallBack() {
             </div>
 
             <p className="text-center">
-                return to the <a href="/" className="underline">homepage</a>?
+                return to the <Link href="/" className="text-blue-600 dark:text-purple-400">homepage</Link>?
             </p>
 
 

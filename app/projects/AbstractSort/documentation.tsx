@@ -1,12 +1,14 @@
 "use client";
 
+import Link from "next/link";
+
 export default function AbstractSortDocumentation() {
     return (
         <div className="bg-gray-50 dark:bg-gray-900 min-h-screen text-gray-900 dark:text-gray-100 transition-colors duration-500 p-8">
             <div className="max-w-5xl mx-auto space-y-10">
                 {/* Overview */}
                 <section className="space-y-4">
-                    <h2 className="text-3xl font-semibold">Overview</h2>
+                    <h2 className="text-3xl font-semibold">Documentation (not all of it, for the full documentation check out <Link className="text-blue-600 dark:text-purple-400" href="https://github.com/Teracura/Teracura.AbstractSort/blob/master/Documentation.md" target="_blank" rel="noopener noreferrer">this</Link>)</h2>
                     <p className="leading-relaxed">
                         <strong>Teracura.AbstractSort</strong> is a lightweight and extensible sorting utility for .NET that provides a fluent,
                         configuration-driven API for sorting collections that implement <code>IEnumerable&lt;T&gt;</code>.

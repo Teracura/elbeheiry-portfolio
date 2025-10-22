@@ -87,14 +87,12 @@ export default function Projects() {
                 <div className="bg-gray-300 dark:bg-gray-800 rounded-xl shadow-md flex flex-col items-center justify-start text-xl font-semibold p-6 text-center">
                     <h3 className="text-2xl mb-2 text-blue-600 dark:text-purple-800">Teracura.AbstractSort</h3>
                     <p className="text-base text-start font-normal text-gray-700 dark:text-gray-200 mb-4 leading-relaxed">
-                        A C# class library that provides a collection of abstract sorting algorithms using <strong>LINQ</strong>, allowing developers to easily implement and utilize various sorting techniques in their applications. <br /><br />
-                        This library, as the name suggests, includes sorting standards that are... abstract, and a bit unusual, but that's the point of the project.<br /><br />
-                        It has my first written <strong>documentation</strong>, my first real implementation of the <strong>builder</strong> pattern, and my first <strong>unit tests</strong> using <strong>xUnit</strong> as well as my first attempt at doing git branching.<br /><br />
-                        Some features include default sorting in this class library using a <strong>custom comparer</strong>, with the capability of sorting objects of different types in the same <strong>IEnumerable</strong>, sorting by version string, and more.<br /><br />
-                        It is also made to be highly customizable, depending on the configuration you make, you can customize the behavior so it fits your needs for example: <br /><br />
-                        want the sorting to return the result while keeping the original IEnumerable in place? you can! want it to sort in descending order? you can! want it to ignore case sensitivity? you can! want it to not return a copy and instead edit the IEnumerable in place? you can! want sorting via string reflection? you can! Lambda expressions? you can! want to sort objects inside objects inside even more objects? you can! want sorting based on more than one standard? you also can! and more<br /><br />
-                        In this project I have learned unit testing, TDD (Test Driven Development), designing for extensibility and reusability, and how to write proper documentation. aswell as writing a class library that extends upon existing classes in C# (IEnumerable in particular) and learned about generics in general!<br /><br />
-                        It's some of the most fun I've had in a project ever, the MVP is done but my ambitions go way beyond what's already made, Check it out below:
+                        <strong>Teracura.AbstractSort</strong> – A C# class library offering abstract and highly customizable sorting algorithms using <strong>LINQ</strong>.<br /><br />
+                        Supports sorting mixed-type collections, version strings, and multi-level sorting via <strong>reflection</strong> or <strong>lambda expressions</strong>.<br /><br />
+                        Built with extensibility in mind, includes <strong>unit tests</strong> (<strong>xUnit</strong>) and a <strong>builder-pattern API</strong>.
+                        This project helped me learn <strong>TDD</strong>, proper <strong>documentation</strong>, and advanced <strong>C# concepts</strong> like generics and extending <strong>IEnumerable</strong>.<br /><br />
+                        learn more about <Link className="text-blue-600 dark:text-purple-400" href="projects/AbstractSort">AbstractSort</Link>? because there is much I want to say <br /><br />
+                        Or check it out below:
                     </p>
 
                     <Link
