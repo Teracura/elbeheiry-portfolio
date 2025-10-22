@@ -19,7 +19,7 @@ export default function Projects() {
 
                     <p className="text-start text-base font-normal text-gray-700 dark:text-gray-200 mb-4 leading-relaxed">
                         A text-based RPG game built with <strong>C#</strong> and <strong>.NET MAUI</strong>, featuring turn-based combat mechanics.<br /><br />
-                        Via this project, I gained experience in game design, state management, saveState with a local database with <strong>SQLite</strong>, <strong>Entity Framework core</strong>, Factory pattern and Singleton pattern, and more. <br /><br />
+                        Via this project, I gained experience in game design, state management, saveState with a local database with <strong>SQLite</strong>, <strong>Entity Framework core</strong>, <strong>Factory pattern</strong> and <strong>Singleton pattern</strong>, <strong>Asynchronous programming</strong>, and more. <br /><br />
                         The game offers an engaging experience with character progression, inventory and shop management, and diverse enemy encounters. <br /><br />
                         It was a great opportunity to enhance my skills in C# and .NET MAUI while creating an enjoyable gaming experience. <br /><br />
                         It's also my first (real) published project on GitHub! Check it out below:
@@ -44,7 +44,7 @@ export default function Projects() {
                         A personal portfolio website built using <strong>Next.js</strong> and <strong>Tailwind CSS</strong>, showcasing my technical skills, featured projects, and personal achievements. <br /><br />
                         It's basically my resume but better... self explanatory you are literally seeing this website as of now <br /><br />
                         It allowed me to strengthen my understanding of React components, client/server rendering, and UI/UX design principles.
-                         and apply my HTML, CSS and JS knowledge in a project that's decent in size <br /><br />
+                        and apply my HTML, CSS and JS knowledge in a project that's decent in size <br /><br />
                         The project is still ongoing as I plan to add more features and projects in the future. check it out below:
                     </p>
 
@@ -60,7 +60,29 @@ export default function Projects() {
                     </Link>
                 </div>
 
+                {/*NizamDesk*/}
+                <div className="bg-gray-300 dark:bg-gray-800 rounded-xl shadow-md flex flex-col items-center justify-start text-xl font-semibold p-6 text-center">
+                    <h3 className="text-2xl mb-2 text-blue-600 dark:text-purple-800">NizamDesk</h3>
+                    <p className="text-base text-start font-normal text-gray-700 dark:text-gray-200 mb-4 leading-relaxed">
+                        A productivity web application built using <strong>ASP.NET</strong> (previously used <strong>MVC</strong> before I switched to <strong>Blazor</strong>), designed to help users manage their tasks and projects efficiently. <br /><br />
+                        In this project, I implemented a <strong>login and logout system</strong> using SQLServer as my database. including handling logins from external providers via <strong>OAuth</strong><br /><br />
+                        I also learned many aspects of security such as <strong>password hashing</strong> and <strong>input validation</strong> to ensure user data protection. And learned the importance of JWT (JSON Web Tokens) for secure user authentication. Though it is still a work in progress, I am proud of the foundation I have built. <br /><br />
+                        This project allowed me to deepen my understanding of full-stack development, including RESTful APIs, database management, and user authentication. <br /><br />
+                        This project is currently on hold while I explore other areas of software development, but I am proud of the solid foundation I have built and plan to resume it in the future.
+                    </p>
+
+                    <Link
+                        href="https://github.com/teracura/nizamdesk"
+                        target="_blank"
+                        rel="hon hon"
+                        className="w-full"
+                    >
+                        <button className="w-full bg-blue-600 dark:bg-purple-800 hover:bg-blue-700 dark:hover:bg-purple-900 text-white py-2 px-4 rounded-lg font-semibold transition-colors duration-300">
+                            View on GitHub
+                        </button>
+                    </Link>
+                </div>
             </div>
-        </section >
+        </section>
     );
 }
