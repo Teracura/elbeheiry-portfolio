@@ -20,6 +20,11 @@ export default function Header() {
           >
             Skills
           </a>
+          <a href="#projects"
+            className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300"
+          >
+            Projects
+          </a>
           <a href="#contact"
             className="flex items-center h-full px-6 hover:bg-blue-100 dark:hover:bg-gray-700 transition-all duration-300"
           >

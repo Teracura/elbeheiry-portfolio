@@ -1,5 +1,6 @@
 import Header from "./header";
 import Introduction from "./Introduction";
+import Projects from "./projects";
 import TechStack from "./Skills";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Introduction />
       <TechStack />
+      <Projects />
 
     </div>
   );
