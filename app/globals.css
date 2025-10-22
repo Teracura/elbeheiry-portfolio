@@ -35,3 +35,7 @@ body {
   -ms-overflow-style: none;  /* chromium */
   scrollbar-width: none;     /* Firefox */
 }
+
+html {
+  scroll-behavior: smooth;
+}
