@@ -106,6 +106,27 @@ export default function Projects() {
                         </button>
                     </Link>
                 </div>
+
+                {/* CS304Lab */}
+                <div className="bg-gray-300 dark:bg-gray-800 rounded-xl shadow-md flex flex-col items-center justify-start text-xl font-semibold p-6 text-center">
+                    <h3 className="text-2xl mb-2 text-blue-600 dark:text-purple-800">CS304Lab</h3>
+                    <p className="text-base text-start font-normal text-gray-700 dark:text-gray-200 mb-4 leading-relaxed">
+                        A collection of lab exercises and assignments (and personal learning attempts) for the <strong>CS304 - Computer graphics</strong> course, implemented in <strong>java OpenGL Library</strong>.<br /><br />
+                        This repository includes implementations of various java tools such as <strong>Java.Swing</strong> and JOGL, it focuses on 2D graphics rendering, transformations, and animations.<br /><br />
+                        Working on these labs helped me solidify my understanding of how computers graphics are drawn generally, especially in game engines, and through I learned caching static graphical scene caching and various method to optimize the workload on the GPU.<br /><br />
+                        Check it out below:
+                    </p>
+                    <Link
+                        href="https://github.com/Teracura/CS304Lab"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full"
+                    >
+                        <button className="w-full bg-blue-600 dark:bg-purple-800 hover:bg-blue-700 dark:hover:bg-purple-900 text-white py-2 px-4 rounded-lg font-semibold transition-colors duration-300">
+                            View on GitHub
+                        </button>
+                    </Link>
+                </div>
             </div>
         </section>
     );
